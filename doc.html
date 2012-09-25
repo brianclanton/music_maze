@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>Design Doc</title>
+	</head>
+	<body>
+		<h1>Music Maze</h1>
+		<h2>Developed by: Brian Clanton</h2>
+		
+		<strong>Inspiration</strong>
+		<p>My inspiration for creating this game was a combination of two different sources. The first source was a project I worked on in high school, in which I made a navigable maze in 3D. However, my project did not turn out as well as I expected. Looking back, I see the things I did incorrectly and figured I could easily fix them, in addition to making the game actually interesting to play. My second inspirational source was a demo I saw online of a graphics shader written to incorporate audio data in its calculations. In the case of the demo, vertex offsets and colors were applied to create a sort of visualizer effect. The demo inspired me to do a more simplified version of this with the maze environment to make the experience more interesting.</p>
+		
+		<strong>Target Hardware</strong>
+		<p>
+			My project is built using Three.js, a Javascript library that makes WebGL a bit easier to use. WebGL has not really broken in to the mobile realm yet, so therefore my game is targeted towards desktop systems.
+		</p>
+
+		<strong>Abstract</strong>
+		<p>
+			Music Maze is a first-person maze crawler in which the player navigates through randomly generated mazes. The mazes are generated using a depth-first search algorithm that creates a perfect maze, which is a maze that has one entrance, one exit, and no loops. As the player wanders through the maze and finds the exit, they will clear the level and move on to a larger maze, thus increasing the difficulty of the game. To make the game an interesting experience, graphics shaders will be used to make the environment a visualizer that interacts with the background music.
+		</p>
+
+		<strong>Audience</strong>
+		<p>
+			Music Maze is more a casual game, but is intended to be enjoyable to all gamers.
+		</p>
+
+		<strong>Characters</strong>
+		<p>
+			Music Maze is not a character-centric game. The only character in the game would be the player, whose sole purpose is to solve mazes.
+		</p>
+
+		<strong>Story and Game World</strong>
+		<p>
+			There is no story line or world outside of the maze.
+		</p>
+
+		<strong>Gameplay</strong>
+		<p>
+			Music Maze will be first-person. The player will control movement by using the arrow keys and the view by using the mouse. Levels will consist of harder and harder mazes that are reached by completion of the previous level.
+		</p>
+
+		<strong>Controls & UI</strong>
+		<p>
+			The keyboard and mouse will be used to control the game.
+		</p>
+
+		<strong>Art</strong>
+		<p>
+			The art style will be non-photorealistic 3d.
+		</p>
+
+		<strong>Sound</strong>
+		<p>
+			The sounds in the game will be the background music and a level completion sound effect. My plan for the background music is to include electronic music, as I believe it will interact best with the visualizer effects.
+		</p>
+	</body>
+</html>

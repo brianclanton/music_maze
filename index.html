@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<script type="text/javascript" src="js/lib/three.min.js"></script>
+		<script type="text/javascript" src="js/Maze.js"></script>
+		<script type="text/javascript" src="js/Game.js"></script>
+		<script type="text/javascript">
+			function test() {
+				var maze = new Maze(3, 3);
+				console.log(maze);
+				//maze.generateMaze(new Location(0, 0));
+				console.log(maze);
+				init(maze);
+			}
+
+			window.addEventListener("load", test);
+		</script>
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	<body>
+		<canvas></canvas>
+	</body>
+</html>
